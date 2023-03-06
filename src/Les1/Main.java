@@ -13,6 +13,15 @@ public class Main {
         Animal animal1 = new Animal("Bars");
         System.out.println(animal1.name);
 
-
+        System.out.println(animal1.getType());
+        Cat cat1 = new Cat("Murzik");
+        Cat cat2 = new Cat("Bax", "Grey");
+        System.out.println(cat1.name);
+        System.out.println(cat1.getType());
+        System.out.println("----------");
+        System.out.print("Cat speak: ");
+        cat1.speak();
+        System.out.print("Animal speak: ");
+        animal1.speak();
     }
 }

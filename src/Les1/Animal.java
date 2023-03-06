@@ -7,6 +7,9 @@ public class Animal {
     private String color;
     private int pawsCount;
 
+    public String getType() {
+        return this.getClass().getSimpleName();
+    }
     public Animal(String name, String color, int pawsCount) {
         this.name = name;
         this.color = color;
