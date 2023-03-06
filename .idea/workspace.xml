@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b13c37cb-b04f-46fb-add6-c4a503d90a85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Les1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Les1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Les1/Duck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Les1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Les1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Main.java" afterDir="false" />
@@ -36,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Les1.Main" />

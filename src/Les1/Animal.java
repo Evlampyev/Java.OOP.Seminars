@@ -64,6 +64,13 @@ public class Animal {
         System.out.println("Found food...");
     }
     public void wakeUp () {
+
         System.out.println("I am wake up!");
     }
+
+    @Override
+    public String toString() {
+        return String.format("Кличка: %s; окрас: %s", this.name, this.color);
+    }
 }
+
