@@ -10,6 +10,11 @@ public class Animal {
     public String getType() {
         return this.getClass().getSimpleName();
     }
+
+    public Animal(String name) {
+        this(name, null, 0);
+    }
+
     public Animal(String name, String color, int pawsCount) {
         this.name = name;
         this.color = color;
@@ -40,10 +45,6 @@ public class Animal {
         this.pawsCount = pawsCount;
     }
 
-    public Animal(String name) {
-        this(name, null, 0);
-    }
-
     public void toPlay() {
         System.out.println("Played");
     }
@@ -56,16 +57,16 @@ public class Animal {
         System.out.println("Yarr!!!");
     }
 
-    public void eat() {
-        System.out.println("Ate...");
+    public void toGo() {
+        System.out.println("I am go");
     }
 
-    public void findFood() {
-        System.out.println("Found food...");
+    public void swim() {
+        System.out.println("I am swim");
     }
-    public void wakeUp () {
 
-        System.out.println("I am wake up!");
+    public void fly() {
+        System.out.println("Полетели!");
     }
 
     @Override

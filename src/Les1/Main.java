@@ -34,7 +34,12 @@ public class Main {
         animals.add(cat2);
         System.out.println("Весь лист: ");
         animals.forEach(System.out::println);
-
-
+        System.out.println("+++");
+        for (Animal a: animals) {
+            System.out.println(a);
+            if (a instanceof Duck) ((Duck) a).fly();
+            }
+        System.out.println("--Huntering--");
+        cat1.hunt();
+        }
     }
-}
