@@ -41,5 +41,32 @@ public class Main {
             }
         System.out.println("--Huntering--");
         cat1.hunt();
+        System.out.println("++swim++");
+        cat2.swim();
+        cat1.toGo();
+        Raven blackRaven = new Raven("Black Raven");
+        blackRaven.swim();
+        blackRaven.fly();
+        blackRaven.toGo();
+
+        cat2.fly();
+
+        Eagle eagle = new Eagle("whiteEagle");
+        eagle.fly();
+        eagle.speak();
+        eagle.swim();
+        animals.add(eagle);
+        animals.add(blackRaven);
+        animals.add(new Dolphin("Willi"));
+        Dolphin dolphin = new Dolphin("Dol");
+
+        for (Animal a: animals) {
+            System.out.println(a);
         }
+
+        eagle.toGo();
+        dolphin.toGo();
+        dolphin.swim();
+
     }
+}

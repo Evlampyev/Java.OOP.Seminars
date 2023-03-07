@@ -1,5 +1,8 @@
 package Les1;
 
+/**
+ * Кот
+ */
 public class Cat extends Animal {
     public Cat(String name, String color) {
         super(name, color, 4);
@@ -9,9 +12,8 @@ public class Cat extends Animal {
         super(name);
     }
 
-    @Override
-    public void speak() {
-        System.out.println("Murrrr!");
+    public void swim() {
+        super.swim("I can't swim");
     }
 
     public void toPlay() {
@@ -38,6 +40,16 @@ public class Cat extends Animal {
         wakeUp();
         findFood();
         eat();
+    }
+
+    @Override
+    public void speak() {
+        System.out.println("Murrrr!");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println(getType() +  " I can't fly");
     }
 }
 

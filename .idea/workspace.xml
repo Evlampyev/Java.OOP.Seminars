@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b13c37cb-b04f-46fb-add6-c4a503d90a85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Les1/Dolphin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Les1/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Les1/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Les1/Raven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Les1/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Les1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Les1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Les1/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Les1/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Duck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Les1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +51,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Les1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Les1.Main" />
@@ -73,7 +85,19 @@
       <option name="presentableId" value="Default" />
       <updated>1678123971304</updated>
     </task>
+    <task id="LOCAL-00001" summary="Part III">
+      <created>1678205655638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678205655638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Part III" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part III" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

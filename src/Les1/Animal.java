@@ -58,16 +58,21 @@ public class Animal {
     }
 
     public void toGo() {
-        System.out.println("I am go");
+        System.out.println(getType() +  " I am go");
     }
 
     public void swim() {
-        System.out.println("I am swim");
+        System.out.println(getType() + " I am swim");
+    }
+
+    public void swim(String talk) {
+        System.out.println(getType() + " " + talk);
     }
 
     public void fly() {
-        System.out.println("Полетели!");
+        System.out.println(getType() + " Полетели!");
     }
+
 
     @Override
     public String toString() {
