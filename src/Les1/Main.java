@@ -1,5 +1,7 @@
 package Les1;
 
+import Les1.impl.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,15 +12,17 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-        Animal animal = new Animal(null, null, 1);
+        Animal animal = new Cat("Пушинка") {
+
+        };
         System.out.println(animal.getColor());
 
-        Animal animal1 = new Animal("Bars");
+        Animal animal1 = new Dog("Bars");
         System.out.println(animal1.name);
 
         System.out.println(animal1.getType());
         Cat cat1 = new Cat("Murzik");
-        Cat cat2 = new Cat("Bax", "Grey");
+        Cat cat2 = new Cat("Bax", "Grey", 4);
         System.out.println(cat1.name);
         System.out.println(cat1.getType());
         System.out.println("----------");
@@ -42,19 +46,17 @@ public class Main {
         System.out.println("--Huntering--");
         cat1.hunt();
         System.out.println("++swim++");
-        cat2.swim();
-        cat1.toGo();
-        Raven blackRaven = new Raven("Black Raven");
-        blackRaven.swim();
-        blackRaven.fly();
-        blackRaven.toGo();
 
-        cat2.fly();
+        Raven blackRaven = new Raven("Black Raven");
+
+
+
+
 
         Eagle eagle = new Eagle("whiteEagle");
-        eagle.fly();
+
         eagle.speak();
-        eagle.swim();
+
         animals.add(eagle);
         animals.add(blackRaven);
         animals.add(new Dolphin("Willi"));
@@ -64,9 +66,9 @@ public class Main {
             System.out.println(a);
         }
 
-        eagle.toGo();
-        dolphin.toGo();
-        dolphin.swim();
+
+
+
 
     }
 }

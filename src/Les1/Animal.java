@@ -1,11 +1,11 @@
 package Les1;
 
-import java.sql.SQLSyntaxErrorException;
 
-public class Animal {
+public abstract class Animal {
     public String name;
     private String color;
     private int pawsCount;
+    public static int animalsCount = 0;
 
     public String getType() {
         return this.getClass().getSimpleName();
@@ -19,6 +19,11 @@ public class Animal {
         this.name = name;
         this.color = color;
         this.pawsCount = pawsCount;
+        animalsCount++;
+    }
+
+    public int getAnimalsCount() {
+        return animalsCount;
     }
 
     public String getName() {
@@ -53,26 +58,10 @@ public class Animal {
         System.out.println("Already aspeep...");
     }
 
-    public void speak() {
-        System.out.println("Yarr!!!");
-    }
+    public abstract void speak();
 
-    public void toGo() {
-        System.out.println(getType() +  " I am go");
-    }
 
-    public void swim() {
-        System.out.println(getType() + " I am swim");
-    }
-
-    public void swim(String talk) {
-        System.out.println(getType() + " " + talk);
-    }
-
-    public void fly() {
-        System.out.println(getType() + " Полетели!");
-    }
-
+    public abstract void hunt();
 
     @Override
     public String toString() {
