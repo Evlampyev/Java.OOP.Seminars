@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b13c37cb-b04f-46fb-add6-c4a503d90a85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/drugs/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drugs/Drug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drugs/impl/CatDrug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drugs/impl/components/Azitron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drugs/impl/components/Pinecilin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drugs/impl/components/Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/les3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
