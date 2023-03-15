@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b13c37cb-b04f-46fb-add6-c4a503d90a85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Text/Les2/Принципы ООП. Интерфейсы.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Les1/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Les1/Illable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Les1/Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Les1/Swimable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Les2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Les2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Les2/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/veterinary/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/veterinary/VetClinic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/impl/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/impl/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Dolphin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/impl/Dolphin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/impl/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/impl/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/impl/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Les1/Raven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Les1/impl/Raven.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
