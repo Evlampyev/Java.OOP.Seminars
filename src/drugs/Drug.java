@@ -7,7 +7,11 @@ public abstract class Drug implements Iterable<Component>, Comparable<Drug> {
     @Override
     public int compareTo(Drug o) {
         int power = getDrugPower();
-        return Integer.compare(power, o.getDrugPower());
+        int result = Integer.compare(power, o.getDrugPower());
+        if (result == 0) {
+            result = this.getName().compareTo(o.getName());
+        }
+        return result;
     }
 
 
@@ -24,6 +28,14 @@ public abstract class Drug implements Iterable<Component>, Comparable<Drug> {
                 return components.get(index++);
             }
         };
+    }
+
+    public String getName() {
+        String name = "";
+        for (Component comp : components) {
+            name = name + "-" + comp.getName();
+        }
+        return name;
     }
 
     private final List<Component> components;
@@ -47,7 +59,7 @@ public abstract class Drug implements Iterable<Component>, Comparable<Drug> {
     @Override
     public String toString() {
         return String.format(
-                "%s {components: %s, power: %s}%n", this.getClass().getSimpleName(), components, getDrugPower()
+                "%s {components: %s, FullPower: %s}%n", this.getClass().getSimpleName(), components, getDrugPower()
         );
     }
 }
